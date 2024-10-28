@@ -1,10 +1,8 @@
-# mq-orghcart-hierarchy
+# orghcart-hierarchy
 
 ## Summary
 
-Short summary on functionality and used technologies.
-
-[picture of the solution in action, if possible]
+SPfx webpart implemented orgchart solution with react framework and multiple npm packages.
 
 ## Used SharePoint Framework Version
 
@@ -12,14 +10,17 @@ Short summary on functionality and used technologies.
 
 ## Applies to
 
-- [SharePoint Framework](https://aka.ms/spfx)
-- [Microsoft 365 tenant](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
+- Applied to sharepoint online.
 
 > Get your own free development tenant by subscribing to [Microsoft 365 developer program](http://aka.ms/o365devprogram)
 
 ## Prerequisites
 
-> Any special pre-requisites?
+> Download project
+> Run "npm install" in project directory
+> Gulp bundle
+> Gulp build --package-solution
+> Gulp Serve
 
 ## Solution
 
