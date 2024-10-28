@@ -1,0 +1,82 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+
+.PersonaIamge
+{
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  border: 0;
+  border-radius: 50%;
+  height: 50px;
+  left: 2px;
+  padding-right: 2px;
+  perspective: 1px;
+  position: absolute;
+  top: 2px;
+  width: 50px;
+}
+.cardTable
+{
+  width: 100%;
+}
+.MquserSecondaryText
+{
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #323130;
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    margin-left: 52px;
+    white-space: break-spaces;
+}
+.MquserprimaryText
+{
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #323130;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    margin-left: 52px;
+    white-space: break-spaces;
+}
+.MqpredecessorprimaryText
+{
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #323130;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    margin-left: 10px;
+    white-space: break-spaces;
+}
+.MqpredecessorSecondaryText
+{
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #323130;
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    margin-left: 10px;
+    white-space: break-spaces;
+}
+.Mqpredecessors
+{
+  background-color: #f3f2f1;
+  text-align: right;
+  font-size: medium;
+}

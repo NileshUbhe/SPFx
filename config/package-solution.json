@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "mq-orghcart-hierarchy-client-side-solution",
+    "id": "0ca03168-5d8d-4796-a9b8-a7e6a0f0d923",
+    "version": "1.0.0.2",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "MQOrghcart_Hierarchy description"
+      },
+      "longDescription": {
+        "default": "MQOrghcart_Hierarchy description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "mq-orghcart-hierarchy Feature",
+        "description": "The feature that activates elements of the mq-orghcart-hierarchy solution.",
+        "id": "631e6403-fde2-438d-8408-701b67e70d29",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/mq-orghcart-hierarchy.sppkg"
+  }
+}

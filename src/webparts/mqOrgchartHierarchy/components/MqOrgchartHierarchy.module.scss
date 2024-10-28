@@ -1,0 +1,255 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.mqOrgchartHierarchy {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+
+
+
+/* Custom styles */
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+body {
+    color: #333333;
+    font-family: Roboto, sans-serif;
+      margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+}
+
+.orgchart {
+/*     background: rgba(185, 203, 233, 0.2); */
+    background-image: none;
+    overflow: auto;
+    width: fit-content;
+}
+
+.orgchart ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.orgchart .prime-list > li {
+  margin: auto;
+}
+
+.orgchart .node {
+  position: relative;
+    display: flex;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 41px;
+}
+
+.orgchart ul {
+  position: relative;
+}
+
+.orgchart ul:not(.prime-list):before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 1px;
+    width: 100%;
+    height: 2px;
+    background: black;
+}
+
+.node:not(.no-child):after {
+    content: "";
+    position: absolute;
+    bottom: -23px;
+    left: 101px;
+    width: 2px;
+    height: 21px;
+    background: black;
+}
+
+.sub-list .node:before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: 101px;
+    width: 2px;
+    height: 30px;
+    background: black;
+}
+
+.orgchart .sub-list li {
+  position: relative;
+  padding: 10px;
+}
+
+.orgchart .sub-list li:first-child:before,
+.orgchart .sub-list li:last-child:before {
+    content: "";
+    position: absolute;
+    top: -21px;
+    width: 50%;
+    height: 20px;
+    background: #ffffff;
+}
+
+.orgchart .sub-list li:first-child:before {
+  left: 1px;
+}
+
+.orgchart .sub-list li:last-child:before {
+  right: -3px;
+}
+
+.orgchart .sub-list li:only-child:before {
+  background: #fff;
+  content: "";
+  height: 4px;
+  position: absolute;
+  top: -21px;
+  width: 50%;
+  right: -3px;
+}
+
+.orgchart .sub-list li:only-child:after {
+  background: #fff;
+  content: "";
+  height: 4px;
+  position: absolute;
+  top: -21px;
+  width: 50%;
+  right: -3px;
+}
+
+.orgchart .node.focused,
+.orgchart .node:hover  {
+    background-color: rgba(127, 198, 249, .3);
+}
+
+.orgchart tr.lines .downLine {
+    background: #b3bec7;
+}
+
+.orgchart tr.lines * {
+    border-color: #b3bec7 !important;
+}
+
+.employee-card {
+    font-size: 10px;
+    background: #ffffff;
+    text-align: left;
+    margin: 0;
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 1px 4px 2px hsla(0, 0%, 80%, .3);
+            box-shadow: 0 1px 4px 2px hsla(0, 0%, 80%, .3)
+}
+
+.employee-card .department-info {
+    background: #d3ecfd;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    padding: 10px 6px;
+}
+
+.employee-card .department-info .name {
+    font-size: 1.3em;
+    font-weight: 500;
+    -ms-flex: 1 1;
+        flex: 1 1;
+}
+
+.employee-card .icon-user {
+    width: 1em;
+    padding-right: .2em;
+    vertical-align: middle;
+}
+
+.employee-card .count {
+    vertical-align: middle;
+}
+
+.employee-card .info-block {
+    padding: 0 5px 5px;
+    border-top: 4px solid #0077ff;
+}
+
+.employee-card .info-block .job-title {
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.employee-card .info-block .personal-info {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+        align-items: flex-start;
+}
+
+.employee-card .info-block .profile-image {
+    width: 4em;
+    height: 4em;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 4px;
+}
+
+.employee-card .info-block .info-wrap {
+    padding-left: .6em;
+}
+
+.employee-card .info-block .name,
+.employee-card .info-block .email {
+    font-size: 1.1em;
+    font-weight: 400;
+    padding-bottom: .3em;
+}
+
+.employee-card .info-block .reportee-count {
+    color: #ffffff;
+    background: #46abf3;
+    padding: 2px 4px;
+    display: inline-block;
+    border-radius: 3px;
+}
