@@ -1,4 +1,4 @@
-# mq-graph-consumer
+# Graph_API_Consumer
 
 ## Summary
 
