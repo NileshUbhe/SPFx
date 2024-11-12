@@ -2,7 +2,7 @@
 
 ## Summary
 
-Short summary on functionality and used technologies.
+SPFx webpart to access user presence using graph api
 
 [picture of the solution in action, if possible]
 
@@ -19,13 +19,13 @@ Short summary on functionality and used technologies.
 
 ## Prerequisites
 
-> Any special pre-requisites?
+> Graph API Permission for User.Read.All and User.Presece
 
 ## Solution
 
 | Solution    | Author(s)                                               |
 | ----------- | ------------------------------------------------------- |
-| folder name | Author details (name, company, twitter alias with link) |
+| SPFx_User_Presence_Graph | Nilesh Ubhe |
 
 ## Version history
 
