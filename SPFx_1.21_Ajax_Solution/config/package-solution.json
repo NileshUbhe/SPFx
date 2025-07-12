@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-fx-ajax-client-side-solution",
+    "id": "3a2e06cd-2cf6-472a-a73b-5bfe9dafa3aa",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "SPFx_Ajax description"
+      },
+      "longDescription": {
+        "default": "SPFx_Ajax description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sp-fx-ajax Feature",
+        "description": "The feature that activates elements of the sp-fx-ajax solution.",
+        "id": "5e8510bc-8bf9-405e-a08b-66eecae7f3b0",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-fx-ajax.sppkg"
+  }
+}
