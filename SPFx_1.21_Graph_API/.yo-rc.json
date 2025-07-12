@@ -1,0 +1,18 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.14.0",
+    "sdksVersions": {},
+    "version": "1.21.0",
+    "libraryName": "sp-fx-graph-api-demo",
+    "libraryId": "75e4c83e-5e51-4de1-9f56-e734088b69b0",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "SPFxGraphApiDemo",
+    "solutionShortDescription": "SPFxGraphApiDemo description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

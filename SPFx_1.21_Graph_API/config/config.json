@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "s-pfx-graph-api-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sPfxGraphApiDemo/SPfxGraphApiDemoWebPart.js",
+          "manifest": "./src/webparts/sPfxGraphApiDemo/SPfxGraphApiDemoWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SPfxGraphApiDemoWebPartStrings": "lib/webparts/sPfxGraphApiDemo/loc/{locale}.js"
+  }
+}

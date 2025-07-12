@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-fx-graph-api-demo-client-side-solution",
+    "id": "75e4c83e-5e51-4de1-9f56-e734088b69b0",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "SPFxGraphApiDemo description"
+      },
+      "longDescription": {
+        "default": "SPFxGraphApiDemo description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sp-fx-graph-api-demo Feature",
+        "description": "The feature that activates elements of the sp-fx-graph-api-demo solution.",
+        "id": "1c5ad7f4-f7e5-4244-becd-38f80648ade2",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-fx-graph-api-demo.sppkg"
+  }
+}
