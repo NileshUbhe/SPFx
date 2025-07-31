@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "provider-webpart-demo-client-side-solution",
+    "id": "4e3ac124-12a2-4de5-9b0a-10da640d1f52",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "ProviderWebpartDemo description"
+      },
+      "longDescription": {
+        "default": "ProviderWebpartDemo description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "provider-webpart-demo Feature",
+        "description": "The feature that activates elements of the provider-webpart-demo solution.",
+        "id": "55514894-2a7e-4938-a931-6a17a449c020",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/provider-webpart-demo.sppkg"
+  }
+}
